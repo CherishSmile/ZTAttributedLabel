@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZTAttributedLabel_Example' do
+  pod 'ZTAttributedLabel', :path => '../'
+
+  target 'ZTAttributedLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
