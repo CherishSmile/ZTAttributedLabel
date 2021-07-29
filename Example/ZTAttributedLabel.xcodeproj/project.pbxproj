@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C4ADD9E3655405BB9F95837 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C4ADD9E3655405BB9F95837 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZTAttributedLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTAttributedLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		A20C7F38E6909634D60D6F41 /* Pods-ZTAttributedLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTAttributedLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTAttributedLabel_Example/Pods-ZTAttributedLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C5A8B16273A56E5C816D1FC9 /* Pods-ZTAttributedLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTAttributedLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTAttributedLabel_Example/Pods-ZTAttributedLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2A9E00A7D564509CEE66C08 /* Pods-ZTAttributedLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTAttributedLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZTAttributedLabel_Tests/Pods-ZTAttributedLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DD1C37D8C79B62E46EE1B389 /* ZTAttributedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTAttributedLabel.podspec; path = ../ZTAttributedLabel.podspec; sourceTree = "<group>"; };
+		DD1C37D8C79B62E46EE1B389 /* ZTAttributedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTAttributedLabel.podspec; path = ../ZTAttributedLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EB3FDD696EFA711D6B89086F /* Pods_ZTAttributedLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTAttributedLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F980DFBF5D3AA89579EDD687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F980DFBF5D3AA89579EDD687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D2A9E00A7D564509CEE66C08 /* Pods-ZTAttributedLabel_Tests.debug.xcconfig */,
 				A1D1376EF82C3BE1892E5E24 /* Pods-ZTAttributedLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

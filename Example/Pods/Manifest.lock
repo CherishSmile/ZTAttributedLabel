@@ -1,0 +1,16 @@
+PODS:
+  - ZTAttributedLabel (0.1.0)
+
+DEPENDENCIES:
+  - ZTAttributedLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ZTAttributedLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTAttributedLabel: ccda9a66bc816afe908e9fa1156cd236abbb633c
+
+PODFILE CHECKSUM: 55829b79078b8398bceb44eba5da4d3c2663522f
+
+COCOAPODS: 1.10.1
