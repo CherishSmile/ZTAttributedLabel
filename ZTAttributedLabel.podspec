@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTAttributedLabel'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A drop-in replacement for UILabel that supports attributes, data detectors, links, and more.'
 
   s.homepage         = 'https://github.com/CherishSmile/ZTAttributedLabel'
@@ -24,6 +24,5 @@ Pod::Spec.new do |s|
   
   s.source_files = 'ZTAttributedLabel/ZTAttributedLabel.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTAttributedLabel/ZTAttributedLabel.framework'
-  s.public_header_files = 'ZTAttributedLabel/ZTAttributedLabel.framework/Headers/*.{h}'
   
 end
